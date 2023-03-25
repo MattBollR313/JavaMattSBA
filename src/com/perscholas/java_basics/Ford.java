@@ -13,5 +13,9 @@ public class Ford extends Car {
 	public double getSalePrice() {
 		return regularPrice - manufacturerDiscount;
 	}
+
+	public int getYear() {
+		return year;
+	}
 	
 }
